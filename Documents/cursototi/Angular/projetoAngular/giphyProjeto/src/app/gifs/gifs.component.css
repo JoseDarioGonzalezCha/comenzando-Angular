@@ -1,0 +1,29 @@
+#boton{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btn button{
+    background: #03C4EB;
+    border: 2px solid #03C4EB;
+    color: #fff;
+}
+
+.btn button:hover{
+    background: none;
+    border: 2px solid #121212;
+    color: #121212;
+}
+
+.giphys{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    margin: auto;
+}
+
+.giphy img{
+    max-width: 250px;
+    padding: 10px;
+}

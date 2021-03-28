@@ -1,0 +1,11 @@
+<section class="style">
+    <div class="btn" id="boton">
+        <button type="button" onclick="javascript:location.href='/'">VOLTAR</button>
+    </div>
+
+    <div class="giphys">
+        <div class="giphy">
+            <img *ngFor="let i of gif.data" [src] = "i.images.fixed_width.url">
+        </div>
+    </div>
+</section>

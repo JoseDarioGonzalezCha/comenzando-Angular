@@ -1,0 +1,32 @@
+.btn h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    margin-top: 180px;
+}
+
+.box{
+    width: 390px;
+    margin-right: 10px;
+    background: none;
+    color: #fff;
+}
+
+.btn{
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.btn button{
+    background: #03C4EB;
+    border: 2px solid #03C4EB;
+    color: #fff;
+}
+
+.btn button:hover{
+    background: none;
+    border: 2px solid #121212;
+    color: #121212;
+}

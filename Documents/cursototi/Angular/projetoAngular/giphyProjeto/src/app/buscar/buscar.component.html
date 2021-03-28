@@ -1,0 +1,14 @@
+<div>
+    <div class="btn">
+
+        <h1>Buscador de imagens</h1>
+        <form #nossoForm="ngForm" (ngSubmit)="buscar(nossoForm.form)">
+
+            <input  class="box" type="buscar" name="termo" [(ngModel)]="termo">
+
+            <button id="boton" type="submit">BUSCAR</button>
+
+        </form>
+    </div>
+</div>
+
